@@ -1,0 +1,95 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all .3s ease-in;
+}
+body{
+	background-color: #f1f1f1;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	transition: all .3s ease-in;
+}
+.maincontainer{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0;
+	padding: 0;
+}
+input[type="text"]{
+	color: #ec5a62;
+	background-color: transparent;
+	outline-style:none;
+	border: none;
+	display: block;
+	width: 100%;
+	font-size: 100px;
+	margin: 65px 0 65px 0;
+	padding-right: 140px;
+}
+
+.container{
+	width: 30%;
+	display: inline-block;
+	font-size: 20px;
+}
+.container:not(:last-child){
+	margin-right: 5%;
+}
+
+.roundedimage ul li img{
+	border-radius: 50%;
+}
+.buttonstyle{
+	background: url(../favicon.png);
+	position:absolute;
+	right: 0px;
+	top: 4px;
+	border:none;
+	height:122px;
+	width:120px;
+	outline:none;
+	padding:2px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+
+}
+.buttonInside{
+	position:relative;
+	margin-bottom:10px;
+}
+p{
+	color:#c2c2c2;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.container ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+ul li{
+	margin: 0px 0px 10px 0;
+	background-color: rgba(118,117,128,0.05);
+	width: 100%;
+}
+
+ul li a{
+	color: #c2c2c2;
+	text-decoration: none;
+}
+
+.block__link{
+	display: block;
+	padding: 10px;
+}
+.text__style{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block__link:hover{
+	cursor:pointer;
+	color: #ec5a62;
+	background-color: rgba(118,117,128,0.1);
+}
